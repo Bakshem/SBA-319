@@ -2,8 +2,9 @@
   "name": "eallison-sba-319",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "nodemon ./index.js"
+    "start": "nodemon --experimental-json-modules index.js"
   },
   "keywords": [],
   "author": "Elif",
